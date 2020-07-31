@@ -1,0 +1,67 @@
+form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+}
+
+form .content-left {
+  flex: 8;
+  display: flex;
+}
+
+form .content-right {
+  flex: 2;
+  display: flex;
+}
+
+form .content-right button {
+  height: 55px;
+  border-radius: 3px;
+  background: #2d00f7;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 5px;
+  padding: 2px;
+  flex: 1;
+
+  transition: .3s;
+}
+
+form .content-right button:hover {
+  background: #2500CC;
+  cursor: pointer;
+}
+
+form .select-block {
+  padding: 0 10px;
+}
+
+form .select-block select {
+  height: 55px;
+  color: #1D3557;
+  border-bottom: 1px solid #2d00f7;
+  font-size: 25px;
+  font-weight: 500;
+  background: #fff;
+  padding: 0 20px;
+  flex: 1;
+}
+
+form .input-block {
+  padding: 0 10px;
+}
+
+form .input-block input {
+  height: 55px;
+  color: #1D3557;
+  border-bottom: 1px solid #2d00f7;
+  font-size: 25px;
+  font-weight: 500;
+  background: #fff;
+  padding: 0 20px;
+  flex: 1;
+}
+

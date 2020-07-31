@@ -1,0 +1,59 @@
+form#Cnpj {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+}
+
+form#Cnpj .content-left {
+  flex: 8;
+}
+
+form#Cnpj .content-right {
+  flex: 2;
+  display: flex;
+}
+
+form#Cnpj .content-left .recent-list {
+  display: flex;
+}
+
+form#Cnpj .content-left h3 {
+  margin-top: 20px;
+}
+
+form#Cnpj .content-left .recent-list ul {
+  flex: 1;
+  list-style-type: none;
+  background: #fff;
+  border: 1px solid #c6c6c6;
+  border-radius: 3px;
+  max-height: 225px;
+  overflow-y: auto;
+}
+
+form#Cnpj .content-left .recent-list ul li {
+  line-height: 55px;
+  padding: 0 20px;
+  border-top: 1px solid #c6c6c6;
+  
+}
+
+form#Cnpj .content-left .recent-list ul li div span {
+  font-size: 25px;
+  color: #1D3557;
+}
+
+form#Cnpj .content-left .recent-list ul li div {
+  display: flex;
+  align-items: center;
+}
+
+form#Cnpj .content-left .recent-list ul li div span {
+  flex: 1;
+}
+
+form#Cnpj .content-left .recent-list ul li:nth-child(1){
+  border-top: none;
+}
